@@ -3,7 +3,7 @@
 
 The repository can be added using:
 ```console
-$ helm repo add cplace https://charts.cplace.io/helm-charts/
+$ helm repo add cplace https://charts.cplace.io/
 ```
 
 The charts repos can be found outside of this index by going to

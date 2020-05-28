@@ -1,6 +1,7 @@
 #!/bin/bash
 # Helper script to add/update a Helm chart in the GitHub pages Helm repository
 # The script will be called by GitHub action from the individual chart repository.
+# Note: git push must be executed manually
 set -euo pipefail
 
 # defines the path to the Helm chart
