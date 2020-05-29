@@ -2,7 +2,24 @@ apiVersion: v1
 entries:
   cplace:
   - apiVersion: v2
-    created: "2020-05-29T07:06:25.659173659Z"
+    created: "2020-05-29T07:13:58.863472073Z"
+    dependencies:
+    - condition: store.deployDatabase,store.deployDatabase
+      name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.6.4
+    - condition: elasticsearch.deploy,global.elasticsearch.deploy
+      name: elasticsearch
+      repository: https://charts.cplace.io/
+      version: 7.6.2+cplace2
+    description: A Helm chart for cplace in kubernetes
+    digest: 4f30448b33fdec9684b0eea061dacc91953bbe39648e090bc14326f8394a529d
+    name: cplace
+    urls:
+    - cplace-0.2.9.tgz
+    version: 0.2.9
+  - apiVersion: v2
+    created: "2020-05-29T07:13:58.859473868Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -21,7 +38,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-05-29T07:06:25.686237713Z"
+    created: "2020-05-29T07:13:58.865632075Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 22ed0caa31d08a244216d44ffea493e747e0828e198a630f0699134fc8728645
     home: https://github.com/elastic/helm-charts
@@ -37,7 +54,7 @@ entries:
     version: 7.6.2+cplace2
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-05-29T07:06:25.688748518Z"
+    created: "2020-05-29T07:13:58.868062779Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 653f6cbe1b147e004fb93292f3e90fdbd293851dc00723dc700247692c807442
     home: https://github.com/elastic/helm-charts
@@ -51,4 +68,4 @@ entries:
     urls:
     - elasticsearch-7.6.2-PR16+cplace2.tgz
     version: 7.6.2-PR16+cplace2
-generated: "2020-05-29T07:06:25.651235144Z"
+generated: "2020-05-29T07:13:58.82275782Z"
