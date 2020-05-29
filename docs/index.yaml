@@ -2,7 +2,24 @@ apiVersion: v1
 entries:
   cplace:
   - apiVersion: v2
-    created: "2020-05-29T07:13:58.863472073Z"
+    created: "2020-05-29T20:27:02.383130957Z"
+    dependencies:
+    - condition: store.deployDatabase,store.deployDatabase
+      name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.6.4
+    - condition: elasticsearch.deploy,global.elasticsearch.deploy
+      name: elasticsearch
+      repository: https://charts.cplace.io/
+      version: 7.6.2+cplace2
+    description: A Helm chart for cplace in kubernetes
+    digest: 437cf3c754c8bec434ca665d062ed95094eccd3119de945b33c7ca3015369e14
+    name: cplace
+    urls:
+    - cplace-0.3.0-PR49.tgz
+    version: 0.3.0-PR49
+  - apiVersion: v2
+    created: "2020-05-29T20:27:02.377566319Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -19,7 +36,7 @@ entries:
     - cplace-0.2.9.tgz
     version: 0.2.9
   - apiVersion: v2
-    created: "2020-05-29T07:13:58.859473868Z"
+    created: "2020-05-29T20:27:02.339705961Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -38,7 +55,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-05-29T07:13:58.865632075Z"
+    created: "2020-05-29T20:27:02.385728774Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 22ed0caa31d08a244216d44ffea493e747e0828e198a630f0699134fc8728645
     home: https://github.com/elastic/helm-charts
@@ -54,7 +71,7 @@ entries:
     version: 7.6.2+cplace2
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-05-29T07:13:58.868062779Z"
+    created: "2020-05-29T20:27:02.387882089Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 653f6cbe1b147e004fb93292f3e90fdbd293851dc00723dc700247692c807442
     home: https://github.com/elastic/helm-charts
@@ -68,4 +85,4 @@ entries:
     urls:
     - elasticsearch-7.6.2-PR16+cplace2.tgz
     version: 7.6.2-PR16+cplace2
-generated: "2020-05-29T07:13:58.82275782Z"
+generated: "2020-05-29T20:27:02.334544126Z"
