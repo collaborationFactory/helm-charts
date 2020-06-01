@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cplace:
   - apiVersion: v2
-    created: "2020-06-01T12:33:13.102995411Z"
+    created: "2020-06-01T12:54:58.592997587Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -13,13 +13,13 @@ entries:
       repository: https://charts.cplace.io/
       version: 7.6.2+cplace2
     description: A Helm chart for cplace in kubernetes
-    digest: 48936981a39107b995c529ab11b353dc3cd271e8e05f52a6c7b0f3e4232dc102
+    digest: aac08542467ff97f23998372fa891977803cffb74a9602fc77dfdd8038afce34
     name: cplace
     urls:
     - cplace-0.3.0-PR49.tgz
     version: 0.3.0-PR49
   - apiVersion: v2
-    created: "2020-06-01T12:33:13.064601998Z"
+    created: "2020-06-01T12:54:58.586622777Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -36,7 +36,7 @@ entries:
     - cplace-0.2.9.tgz
     version: 0.2.9
   - apiVersion: v2
-    created: "2020-06-01T12:33:13.060168808Z"
+    created: "2020-06-01T12:54:58.581887069Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -55,7 +55,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-06-01T12:33:13.105509506Z"
+    created: "2020-06-01T12:54:58.595144391Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 22ed0caa31d08a244216d44ffea493e747e0828e198a630f0699134fc8728645
     home: https://github.com/elastic/helm-charts
@@ -71,7 +71,7 @@ entries:
     version: 7.6.2+cplace2
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-06-01T12:33:13.107426202Z"
+    created: "2020-06-01T12:54:58.597257695Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 653f6cbe1b147e004fb93292f3e90fdbd293851dc00723dc700247692c807442
     home: https://github.com/elastic/helm-charts
@@ -85,4 +85,4 @@ entries:
     urls:
     - elasticsearch-7.6.2-PR16+cplace2.tgz
     version: 7.6.2-PR16+cplace2
-generated: "2020-06-01T12:33:13.055297719Z"
+generated: "2020-06-01T12:54:58.564741239Z"
