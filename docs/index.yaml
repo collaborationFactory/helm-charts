@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cplace:
   - apiVersion: v2
-    created: "2020-06-15T08:19:46.929328336Z"
+    created: "2020-06-15T09:30:04.283608615Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -13,13 +13,13 @@ entries:
       repository: https://charts.cplace.io/
       version: 7.6.2+cplace2
     description: A Helm chart for cplace in kubernetes
-    digest: a0d514fe7e50246db5d4d050dc29084446c7f37340becab6e71080dfeb9ffd8f
+    digest: ff3ce707503a60bf97c6be36e6d97b6f506dcc573fbe247555be959854e36e95
     name: cplace
     urls:
     - cplace-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2020-06-15T08:19:46.924235932Z"
+    created: "2020-06-15T09:30:04.279287904Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -36,7 +36,7 @@ entries:
     - cplace-0.3.0-PR49.tgz
     version: 0.3.0-PR49
   - apiVersion: v2
-    created: "2020-06-15T08:19:46.916941127Z"
+    created: "2020-06-15T09:30:04.232371487Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -53,7 +53,7 @@ entries:
     - cplace-0.2.9.tgz
     version: 0.2.9
   - apiVersion: v2
-    created: "2020-06-15T08:19:46.912222224Z"
+    created: "2020-06-15T09:30:04.228041176Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -72,7 +72,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-06-15T08:19:46.931474037Z"
+    created: "2020-06-15T09:30:04.28569452Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 22ed0caa31d08a244216d44ffea493e747e0828e198a630f0699134fc8728645
     home: https://github.com/elastic/helm-charts
@@ -88,7 +88,7 @@ entries:
     version: 7.6.2+cplace2
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-06-15T08:19:46.933472838Z"
+    created: "2020-06-15T09:30:04.287773626Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 653f6cbe1b147e004fb93292f3e90fdbd293851dc00723dc700247692c807442
     home: https://github.com/elastic/helm-charts
@@ -102,4 +102,4 @@ entries:
     urls:
     - elasticsearch-7.6.2-PR16+cplace2.tgz
     version: 7.6.2-PR16+cplace2
-generated: "2020-06-15T08:19:46.879178202Z"
+generated: "2020-06-15T09:30:04.223401765Z"
