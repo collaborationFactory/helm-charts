@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cplace:
   - apiVersion: v2
-    created: "2020-07-15T12:51:57.083036781Z"
+    created: "2020-07-15T13:24:50.775373809Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -19,7 +19,7 @@ entries:
     - cplace-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
-    created: "2020-07-15T12:51:57.077805971Z"
+    created: "2020-07-15T13:24:50.770775798Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -30,13 +30,13 @@ entries:
       repository: https://charts.cplace.io/
       version: 7.6.2+cplace2
     description: A Helm chart for cplace in kubernetes
-    digest: c0d2cabe7606b61e3159ef11bfcbb9d028fba5f1c75da093d69806f4aad33f6b
+    digest: def6f79a5e01e6988097bb3203295f1c55119e63d2ce250f3cae382334578c75
     name: cplace
     urls:
     - cplace-0.3.2-PR53.tgz
     version: 0.3.2-PR53
   - apiVersion: v2
-    created: "2020-07-15T12:51:57.072831862Z"
+    created: "2020-07-15T13:24:50.764442883Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -53,7 +53,7 @@ entries:
     - cplace-0.3.2-PR52.tgz
     version: 0.3.2-PR52
   - apiVersion: v2
-    created: "2020-07-15T12:51:57.068637754Z"
+    created: "2020-07-15T13:24:50.759581372Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -70,7 +70,7 @@ entries:
     - cplace-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
-    created: "2020-07-15T12:51:57.063685844Z"
+    created: "2020-07-15T13:24:50.75482026Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -87,7 +87,7 @@ entries:
     - cplace-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2020-07-15T12:51:57.058084633Z"
+    created: "2020-07-15T13:24:50.747248442Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -104,7 +104,7 @@ entries:
     - cplace-0.3.0-PR51.tgz
     version: 0.3.0-PR51
   - apiVersion: v2
-    created: "2020-07-15T12:51:57.054005826Z"
+    created: "2020-07-15T13:24:50.741304328Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -121,7 +121,7 @@ entries:
     - cplace-0.3.0-PR50.tgz
     version: 0.3.0-PR50
   - apiVersion: v2
-    created: "2020-07-15T12:51:57.049698017Z"
+    created: "2020-07-15T13:24:50.736483417Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -138,7 +138,7 @@ entries:
     - cplace-0.3.0-PR49.tgz
     version: 0.3.0-PR49
   - apiVersion: v2
-    created: "2020-07-15T12:51:57.008952839Z"
+    created: "2020-07-15T13:24:50.729969602Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -155,7 +155,7 @@ entries:
     - cplace-0.2.9.tgz
     version: 0.2.9
   - apiVersion: v2
-    created: "2020-07-15T12:51:57.004782731Z"
+    created: "2020-07-15T13:24:50.725455291Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -174,7 +174,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-07-15T12:51:57.085068785Z"
+    created: "2020-07-15T13:24:50.777678914Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 22ed0caa31d08a244216d44ffea493e747e0828e198a630f0699134fc8728645
     home: https://github.com/elastic/helm-charts
@@ -190,7 +190,7 @@ entries:
     version: 7.6.2+cplace2
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-07-15T12:51:57.087017989Z"
+    created: "2020-07-15T13:24:50.77991442Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 653f6cbe1b147e004fb93292f3e90fdbd293851dc00723dc700247692c807442
     home: https://github.com/elastic/helm-charts
@@ -204,4 +204,4 @@ entries:
     urls:
     - elasticsearch-7.6.2-PR16+cplace2.tgz
     version: 7.6.2-PR16+cplace2
-generated: "2020-07-15T12:51:56.996752115Z"
+generated: "2020-07-15T13:24:50.69126241Z"
