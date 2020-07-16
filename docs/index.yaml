@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cplace:
   - apiVersion: v2
-    created: "2020-07-16T09:20:23.464954021Z"
+    created: "2020-07-16T09:38:37.220949242Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -13,13 +13,13 @@ entries:
       repository: https://charts.cplace.io/
       version: 7.6.2+cplace2
     description: A Helm chart for cplace in kubernetes
-    digest: a62734406184a1e76298f0ffbf7ef7e8cebf347b55c05950e14f511b1897c46c
+    digest: e89c26e053391ee203264f4b5135358160b294b05f01bb768271e60cd1267316
     name: cplace
     urls:
     - cplace-0.3.4-PR55.tgz
     version: 0.3.4-PR55
   - apiVersion: v2
-    created: "2020-07-16T09:20:23.460348595Z"
+    created: "2020-07-16T09:38:37.216301187Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -36,7 +36,7 @@ entries:
     - cplace-0.3.3.tgz
     version: 0.3.3
   - apiVersion: v2
-    created: "2020-07-16T09:20:23.455944169Z"
+    created: "2020-07-16T09:38:37.211545831Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -53,7 +53,7 @@ entries:
     - cplace-0.3.3-PR54.tgz
     version: 0.3.3-PR54
   - apiVersion: v2
-    created: "2020-07-16T09:20:23.451295143Z"
+    created: "2020-07-16T09:38:37.204740051Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -70,7 +70,7 @@ entries:
     - cplace-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
-    created: "2020-07-16T09:20:23.441868988Z"
+    created: "2020-07-16T09:38:37.199909295Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -87,7 +87,7 @@ entries:
     - cplace-0.3.2-PR53.tgz
     version: 0.3.2-PR53
   - apiVersion: v2
-    created: "2020-07-16T09:20:23.435723253Z"
+    created: "2020-07-16T09:38:37.195165939Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -104,7 +104,7 @@ entries:
     - cplace-0.3.2-PR52.tgz
     version: 0.3.2-PR52
   - apiVersion: v2
-    created: "2020-07-16T09:20:23.430400522Z"
+    created: "2020-07-16T09:38:37.187722652Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -121,7 +121,7 @@ entries:
     - cplace-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
-    created: "2020-07-16T09:20:23.425560695Z"
+    created: "2020-07-16T09:38:37.182749793Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -138,7 +138,7 @@ entries:
     - cplace-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2020-07-16T09:20:23.418985157Z"
+    created: "2020-07-16T09:38:37.177932337Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -155,7 +155,7 @@ entries:
     - cplace-0.3.0-PR51.tgz
     version: 0.3.0-PR51
   - apiVersion: v2
-    created: "2020-07-16T09:20:23.413901627Z"
+    created: "2020-07-16T09:38:37.170475049Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -172,7 +172,7 @@ entries:
     - cplace-0.3.0-PR50.tgz
     version: 0.3.0-PR50
   - apiVersion: v2
-    created: "2020-07-16T09:20:23.408097394Z"
+    created: "2020-07-16T09:38:37.165783094Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -189,7 +189,7 @@ entries:
     - cplace-0.3.0-PR49.tgz
     version: 0.3.0-PR49
   - apiVersion: v2
-    created: "2020-07-16T09:20:23.402392161Z"
+    created: "2020-07-16T09:38:37.13985739Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -206,7 +206,7 @@ entries:
     - cplace-0.2.9.tgz
     version: 0.2.9
   - apiVersion: v2
-    created: "2020-07-16T09:20:23.397955436Z"
+    created: "2020-07-16T09:38:37.135468739Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -225,7 +225,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-07-16T09:20:23.476576888Z"
+    created: "2020-07-16T09:38:37.223133367Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 22ed0caa31d08a244216d44ffea493e747e0828e198a630f0699134fc8728645
     home: https://github.com/elastic/helm-charts
@@ -241,7 +241,7 @@ entries:
     version: 7.6.2+cplace2
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-07-16T09:20:23.479247704Z"
+    created: "2020-07-16T09:38:37.225600996Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 653f6cbe1b147e004fb93292f3e90fdbd293851dc00723dc700247692c807442
     home: https://github.com/elastic/helm-charts
@@ -255,4 +255,4 @@ entries:
     urls:
     - elasticsearch-7.6.2-PR16+cplace2.tgz
     version: 7.6.2-PR16+cplace2
-generated: "2020-07-16T09:20:23.376922315Z"
+generated: "2020-07-16T09:38:37.130771284Z"
