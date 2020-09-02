@@ -6,7 +6,7 @@ Team 	| Cloud Squad
 Project| Cloud
 Parent |	none
 Developed by 	|collaboration Factory AG
-Description |	This is the cplace operator repository
+Description |	This is the cplace helm chart repository
 
 # charts.cplace.io (collaborationFactory.github.io/helm-charts)
 [Helm](https://helm.sh) repo index for cplace related charts.
