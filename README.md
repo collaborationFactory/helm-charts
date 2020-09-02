@@ -1,3 +1,13 @@
+# Document Control / Repository Information
+Item | Value 
+--- | ---
+Owner |	Kersten Burkhardt, Julian Ronge, Sebastian Weitzel, Stadler Stefan
+Team 	| Cloud Squad
+Project| Cloud
+Parent |	none
+Developed by 	|collaboration Factory AG
+Description |	This is the cplace operator repository
+
 # charts.cplace.io (collaborationFactory.github.io/helm-charts)
 [Helm](https://helm.sh) repo index for cplace related charts.
 
