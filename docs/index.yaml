@@ -2,24 +2,20 @@ apiVersion: v1
 entries:
   cplace:
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.10221749Z"
+    created: "2021-01-21T10:50:01.329095899Z"
     dependencies:
-    - condition: store.deployDatabase,global.store.deployDatabase
-      name: mysql
-      repository: https://charts.bitnami.com/bitnami
-      version: 8.2.3
     - condition: elasticsearch.deploy,global.elasticsearch.deploy
       name: elasticsearch
       repository: https://charts.cplace.io/
       version: 7.6.2+cplace2
     description: A Helm chart for cplace in kubernetes
-    digest: 25adc573efb3bc6b7a1704eefc6f7442d17e52e4b940eb486bed5f98dc0afd62
+    digest: f5937f90457764d754f8086bd04e2df5f3935b1ccfc9c5940f68bf865ad520a5
     name: cplace
     urls:
     - cplace-0.3.9.tgz
     version: 0.3.9
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.095537786Z"
+    created: "2021-01-21T10:50:01.324615127Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -36,7 +32,7 @@ entries:
     - cplace-0.3.9-PR73.tgz
     version: 0.3.9-PR73
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.089500683Z"
+    created: "2021-01-21T10:50:01.316843075Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -53,7 +49,7 @@ entries:
     - cplace-0.3.8.tgz
     version: 0.3.8
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.08456698Z"
+    created: "2021-01-21T10:50:01.312064205Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -70,7 +66,7 @@ entries:
     - cplace-0.3.8-PR71.tgz
     version: 0.3.8-PR71
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.080560178Z"
+    created: "2021-01-21T10:50:01.306875837Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -87,7 +83,7 @@ entries:
     - cplace-0.3.8-PR70.tgz
     version: 0.3.8-PR70
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.076578175Z"
+    created: "2021-01-21T10:50:01.301199972Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -104,7 +100,7 @@ entries:
     - cplace-0.3.8-PR69.tgz
     version: 0.3.8-PR69
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.072534273Z"
+    created: "2021-01-21T10:50:01.296416301Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -121,7 +117,7 @@ entries:
     - cplace-0.3.7.tgz
     version: 0.3.7
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.06697327Z"
+    created: "2021-01-21T10:50:01.291670631Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -138,7 +134,7 @@ entries:
     - cplace-0.3.7-PR68.tgz
     version: 0.3.7-PR68
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.062904967Z"
+    created: "2021-01-21T10:50:01.284959772Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -155,7 +151,7 @@ entries:
     - cplace-0.3.7-PR67.tgz
     version: 0.3.7-PR67
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.058929465Z"
+    created: "2021-01-21T10:50:01.279860304Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -172,7 +168,7 @@ entries:
     - cplace-0.3.6.tgz
     version: 0.3.6
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.053316762Z"
+    created: "2021-01-21T10:50:01.275153533Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -189,7 +185,7 @@ entries:
     - cplace-0.3.6-PR66.tgz
     version: 0.3.6-PR66
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.047870658Z"
+    created: "2021-01-21T10:50:01.270034165Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -206,7 +202,7 @@ entries:
     - cplace-0.3.6-PR65.tgz
     version: 0.3.6-PR65
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.043890256Z"
+    created: "2021-01-21T10:50:01.264033802Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -223,7 +219,7 @@ entries:
     - cplace-0.3.6-PR64.tgz
     version: 0.3.6-PR64
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.039920954Z"
+    created: "2021-01-21T10:50:01.25943363Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -240,7 +236,7 @@ entries:
     - cplace-0.3.6-PR63.tgz
     version: 0.3.6-PR63
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.035585351Z"
+    created: "2021-01-21T10:50:01.254735159Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -257,7 +253,7 @@ entries:
     - cplace-0.3.6-PR62.tgz
     version: 0.3.6-PR62
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.030711848Z"
+    created: "2021-01-21T10:50:01.24981479Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -274,7 +270,7 @@ entries:
     - cplace-0.3.5.tgz
     version: 0.3.5
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.026839546Z"
+    created: "2021-01-21T10:50:01.244765121Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -291,7 +287,7 @@ entries:
     - cplace-0.3.5-PR60.tgz
     version: 0.3.5-PR60
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.022910044Z"
+    created: "2021-01-21T10:50:01.239656353Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -308,7 +304,7 @@ entries:
     - cplace-0.3.5-PR59.tgz
     version: 0.3.5-PR59
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.018311141Z"
+    created: "2021-01-21T10:50:01.234923582Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -325,7 +321,7 @@ entries:
     - cplace-0.3.4.tgz
     version: 0.3.4
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.014381039Z"
+    created: "2021-01-21T10:50:01.230268011Z"
     dependencies:
     - condition: store.deployDatabase,global.store.deployDatabase
       name: mysql
@@ -342,7 +338,7 @@ entries:
     - cplace-0.3.4-PR59.tgz
     version: 0.3.4-PR59
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.010547536Z"
+    created: "2021-01-21T10:50:01.224754345Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -359,7 +355,7 @@ entries:
     - cplace-0.3.4-PR58.tgz
     version: 0.3.4-PR58
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.006682434Z"
+    created: "2021-01-21T10:50:01.219332478Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -376,7 +372,7 @@ entries:
     - cplace-0.3.4-PR57.tgz
     version: 0.3.4-PR57
   - apiVersion: v2
-    created: "2020-12-22T07:53:32.002227531Z"
+    created: "2021-01-21T10:50:01.213750813Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -393,7 +389,7 @@ entries:
     - cplace-0.3.4-PR56.tgz
     version: 0.3.4-PR56
   - apiVersion: v2
-    created: "2020-12-22T07:53:31.997795228Z"
+    created: "2021-01-21T10:50:01.208962942Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -410,7 +406,7 @@ entries:
     - cplace-0.3.4-PR55.tgz
     version: 0.3.4-PR55
   - apiVersion: v2
-    created: "2020-12-22T07:53:31.993894526Z"
+    created: "2021-01-21T10:50:01.203070979Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -427,7 +423,7 @@ entries:
     - cplace-0.3.3.tgz
     version: 0.3.3
   - apiVersion: v2
-    created: "2020-12-22T07:53:31.990025124Z"
+    created: "2021-01-21T10:50:01.198457407Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -444,7 +440,7 @@ entries:
     - cplace-0.3.3-PR54.tgz
     version: 0.3.3-PR54
   - apiVersion: v2
-    created: "2020-12-22T07:53:31.98494912Z"
+    created: "2021-01-21T10:50:01.193836636Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -461,7 +457,7 @@ entries:
     - cplace-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
-    created: "2020-12-22T07:53:31.981076918Z"
+    created: "2021-01-21T10:50:01.189194065Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -478,7 +474,7 @@ entries:
     - cplace-0.3.2-PR53.tgz
     version: 0.3.2-PR53
   - apiVersion: v2
-    created: "2020-12-22T07:53:31.977272416Z"
+    created: "2021-01-21T10:50:01.182919304Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -495,7 +491,7 @@ entries:
     - cplace-0.3.2-PR52.tgz
     version: 0.3.2-PR52
   - apiVersion: v2
-    created: "2020-12-22T07:53:31.972905313Z"
+    created: "2021-01-21T10:50:01.178265532Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -512,7 +508,7 @@ entries:
     - cplace-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
-    created: "2020-12-22T07:53:31.96781311Z"
+    created: "2021-01-21T10:50:01.173498862Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -529,7 +525,7 @@ entries:
     - cplace-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2020-12-22T07:53:31.963497207Z"
+    created: "2021-01-21T10:50:01.168859691Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -546,7 +542,7 @@ entries:
     - cplace-0.3.0-PR51.tgz
     version: 0.3.0-PR51
   - apiVersion: v2
-    created: "2020-12-22T07:53:31.959615704Z"
+    created: "2021-01-21T10:50:01.16254443Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -563,7 +559,7 @@ entries:
     - cplace-0.3.0-PR50.tgz
     version: 0.3.0-PR50
   - apiVersion: v2
-    created: "2020-12-22T07:53:31.955662602Z"
+    created: "2021-01-21T10:50:01.157197963Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -580,7 +576,7 @@ entries:
     - cplace-0.3.0-PR49.tgz
     version: 0.3.0-PR49
   - apiVersion: v2
-    created: "2020-12-22T07:53:31.950602499Z"
+    created: "2021-01-21T10:50:01.152472592Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -597,7 +593,7 @@ entries:
     - cplace-0.2.9.tgz
     version: 0.2.9
   - apiVersion: v2
-    created: "2020-12-22T07:53:31.946780796Z"
+    created: "2021-01-21T10:50:01.147660122Z"
     dependencies:
     - condition: store.deployDatabase,store.deployDatabase
       name: mysql
@@ -616,7 +612,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-12-22T07:53:32.104424092Z"
+    created: "2021-01-21T10:50:01.331317585Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 22ed0caa31d08a244216d44ffea493e747e0828e198a630f0699134fc8728645
     home: https://github.com/elastic/helm-charts
@@ -632,7 +628,7 @@ entries:
     version: 7.6.2+cplace2
   - apiVersion: v1
     appVersion: 2.4.6
-    created: "2020-12-22T07:53:32.106281693Z"
+    created: "2021-01-21T10:50:01.333573971Z"
     description: cplace modified Elastic helm chart for Elasticsearch
     digest: 653f6cbe1b147e004fb93292f3e90fdbd293851dc00723dc700247692c807442
     home: https://github.com/elastic/helm-charts
@@ -646,4 +642,4 @@ entries:
     urls:
     - elasticsearch-7.6.2-PR16+cplace2.tgz
     version: 7.6.2-PR16+cplace2
-generated: "2020-12-22T07:53:31.942386194Z"
+generated: "2021-01-21T10:50:01.140712365Z"
